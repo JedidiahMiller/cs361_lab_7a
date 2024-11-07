@@ -63,7 +63,7 @@ int main(int argc, char *argv[])
    struct sockaddr_in  
                  srvrSkt ,         /* the address of this server   */
                  clntSkt ;         /* remote client's socket       */
-    unsigned short port = 13 ;     /* service name or port number  */
+    unsigned short port = 3306 ;   /* service name or port number  */
     int	    sd ;                   /* server socket                */
     time_t	now ;                  /* current time                 */
     char    buf[ MAXBUFLEN ] ;     /* "input" buffer; any size > 0 */
